@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="@dimen/_150sdp"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_8sdp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter amount:"/>
+        <EditText
+            android:id="@+id/amountCredit"
+            android:inputType="number"
+            android:layout_marginLeft="@dimen/_8sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="4"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="@dimen/_11sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:paddingRight="@dimen/_8sdp"
+            android:paddingLeft="@dimen/_8sdp"
+            android:text="Give Credit"
+            android:textAllCaps="false"
+            android:background="@drawable/rounded_button"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_12sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_30sdp"
+            android:id="@+id/btnGiveCredit"/>
+    </LinearLayout>
+
+</LinearLayout>

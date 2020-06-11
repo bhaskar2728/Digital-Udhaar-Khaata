@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "355093289770",
+    "firebase_url": "https://digitaludhaarkhata-7ee88.firebaseio.com",
+    "project_id": "digitaludhaarkhata-7ee88",
+    "storage_bucket": "digitaludhaarkhata-7ee88.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355093289770:android:bdb8439b1372b5de9b1c53",
+        "android_client_info": {
+          "package_name": "com.example.digitaludhaarkhata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355093289770-8hhbqm74lloec0btg0tt0502rc0d6ekk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.digitaludhaarkhata",
+            "certificate_hash": "66e1f7f50b006e00351e471e947b33e3e922cf39"
+          }
+        },
+        {
+          "client_id": "355093289770-o2t6upr12t3l32dqb516f9h04f3vhrok.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBq-Hn7-HrIB7cnCFpX1rzpx8d5HKlSmiU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355093289770-o2t6upr12t3l32dqb516f9h04f3vhrok.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

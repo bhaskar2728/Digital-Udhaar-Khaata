@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_250sdp"
+        android:gravity="center">
+    <ImageView
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_200sdp"
+        android:src="@drawable/image_main" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_50sdp"
+        android:text="Welcome"
+        android:textSize="@dimen/_30sdp"
+        android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="@dimen/_20sdp"
+        android:paddingRight="@dimen/_20sdp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_60sdp"
+            android:text="Now keep track of all the money related acivities effortlessly through this app"
+            android:textSize="@dimen/_15sdp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnLogin"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/rounded_button"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnSignUp"
+            android:text="Sign Up"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:background="@drawable/rounded_button"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

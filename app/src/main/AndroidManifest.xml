@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.digitaludhaarkhata">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true">
+        <activity android:name=".ChatActivity"
+            android:theme="@style/AppThemeNoActionBar"
+            android:parentActivityName=".AfterLogin"></activity>
+        <activity
+            android:name=".Users"
+            android:label="Users"
+            android:parentActivityName=".AfterLogin"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AfterLogin"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name=".SignUpActivity"
+            android:label="Register"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="Login"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/AppThemeNoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
